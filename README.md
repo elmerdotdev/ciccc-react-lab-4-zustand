@@ -8,7 +8,7 @@
 2. Create at least seven routes for your application with `react-router-dom`:
 
     - Home `/`
-    - Post Listing `/posts` (only non-deleted items)
+    - Posts Listing `/posts` (only non-deleted items will show up)
     - Post Detail `/posts/1` (where 1 is the id)
     - Add Post `/posts/new`
     - Edit Post `/posts/1/edit` (where 1 is the id)
@@ -21,7 +21,7 @@
     - content `string`
     - isDeleted `boolean`
 
-4. Add a **Create** button to the post listing page which redirects you to the *Add Post* route.
+4. Add a **Create** button to the posts listing page which redirects you to the *Add Post* route.
 5. Add an **Edit** button inside the post detail page which redirects you to the *Edit Post* route to modify the title and content.
 6. Add a **Delete** button inside the post detail page which will update the `isDeleted` property to `true`. You can install a toast package such as `react-hot-toast` for the deletion notification. The deleted article will go into the `/trash` page.
 7. On the trash listing page, add a **Recover** button beside each post which will update the `isDeleted` property to `false`.
