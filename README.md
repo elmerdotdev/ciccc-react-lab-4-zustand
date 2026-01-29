@@ -22,10 +22,11 @@
     - isDeleted `boolean`
 
 4. Add a **Create** button to the posts listing page which redirects you to the *Add Post* route.
-5. Add an **Edit** button inside the post detail page which redirects you to the *Edit Post* route to modify the title and content.
-6. Add a **Delete** button inside the post detail page which will update the `isDeleted` property to `true`. You can install a toast package such as `react-hot-toast` for the deletion notification. The deleted article will go into the `/trash` page.
-7. On the trash listing page, add a **Recover** button beside each post which will update the `isDeleted` property to `false`.
-8. On the same trash listing page, add another button called **Delete permanently** which will remove the post from the Zustand store.
-9. Commit and push your changes once you are done.
+5. Clicking on a post in the posts listing page will redirect you to the detail page.
+6. Add an **Edit** button inside the post detail page which redirects you to the *Edit Post* route to modify the title and content.
+7. Add a **Delete** button inside the post detail page which will update the `isDeleted` property to `true`. You can install a toast package such as `react-hot-toast` for the deleted notification. The deleted post should now appear in the `/trash` page.
+8. On the trash listing page, add a **Recover** button beside each post which will update the `isDeleted` property to `false`. You can add a toast notification for the recovered notification.
+9. On the same trash listing page, add another button called **Delete permanently** which will remove the post from the Zustand store.
+10. Commit and push your changes once you are done.
 
 Good luck! 🎉🎉🎉
