@@ -5,7 +5,7 @@
 ## Instructions ✅
 
 1. Create a new React project by running `npm create vite@latest lab-4-crud-zustand`.
-2. Create at least seven routes for your application with `react-router-dom`:
+2. Create at least six routes for your application with `react-router-dom`:
 
     - Home `/`
     - Posts Listing `/posts` (only non-deleted items will show up)
